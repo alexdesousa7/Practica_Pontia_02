@@ -1,0 +1,16 @@
+*   8b3b3ce He resuelto el conflicto entre las operaciones sumar y restar en el archivo operations.py
+|\  
+| *   a261bbf Merge pull request #2 from alexdesousa7/feature/suma
+| |\  
+| | * bc075b6 añado el archivo solo con la funcion sumar
+| |/  
+* / 07986dd Añado la funcion de restar al archivo operations
+|/  
+* a7a79e7 Añado el archivo de status del gitignore al repositorio
+*   76a1055 Merge pull request #1 from alexdesousa7/feature/gitignore
+|\  
+| * 22508e9 he añadido el archivo .gitignore
+|/  
+* 4bbd25d agregando capturas del archivo evidencias.md
+* d838b3c he agregado la carpeta evidencias y su archivo correspondiente donde se explica como se protege la rama principal main
+* 2f6c6cb Primer comentario de la tarea del modulo versionado

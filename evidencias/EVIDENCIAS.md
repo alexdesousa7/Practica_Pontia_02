@@ -26,3 +26,11 @@ se agregaran capturas del git status
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+agrego el archivo git-log.txt
+
+en este archivo contiene la evidencia del log de cuando se agregaron las funciones sumar y restar y entraron en conflicto al pertenecer ambas funciones al mismo archivo operations.py
+
+agrego algunas imagenes tambien
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
