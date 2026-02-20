@@ -1,4 +1,4 @@
-name: Actvidad 6 - Automatizacion con Github Actions
+name: Actividad 6 - Automatizacion con Github Actions
 
 on:
   workflow_dispatch:
