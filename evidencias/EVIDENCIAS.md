@@ -15,3 +15,14 @@ aqui seleccionamos agregar una regla basica y el sistema nos pregunta que "Branc
 Se selecciona "Require a pull request before merging" y "require approvals" y se le da al boton Create, el sistema nos pide autenticarnos para validar los cambios y ya esta creada nuestra regla.
 
 He adjuntado capturas del paso a paso.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+agregar el archivo .gitignore
+
+se procede a crear un archivo .gitignore para que ignore todos los archivos que terminen en extension .log y adicional ignore la carpeta __pycache__ 
+
+se agregaran capturas del git status
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
