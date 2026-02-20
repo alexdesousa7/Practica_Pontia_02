@@ -1,0 +1,16 @@
+name: Actvidad 6 - Automatizacion con Github Actions
+
+on:
+  workflow_dispatch:
+    inputs:
+      nombre:
+        description: "Introduce tus nombres y apellidos"
+        required: true
+        type: string
+
+jobs:
+  visualizar-nombres:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar Nombres y Apellidos
+        run: echo "Tu nombre es: ${{ github.event.inputs.nombre }}"
