@@ -6,11 +6,14 @@ on:
       nombre:
         description: "Introduce tus nombres y apellidos"
         required: true
+        default: ""
         type: string
 
 jobs:
-  visualizar-nombres:
+  muestra-nombre:
     runs-on: ubuntu-latest
     steps:
-      - name: Mostrar Nombres y Apellidos
-        run: echo "Tu nombre es: ${{ github.event.inputs.nombre }}"
+      - name: Mostrar el nombre introducido
+        run: |
+          echo "Tu nombre es: ${{ github.event.inputs.nombre}}"
+
