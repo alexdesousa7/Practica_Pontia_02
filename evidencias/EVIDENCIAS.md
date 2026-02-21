@@ -1,8 +1,16 @@
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Enlace a mi repositorio de las actividades del Versionado
+
+https://github.com/alexdesousa7/Practica_Pontia_02.git
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 La proteccion que se ha configurado es la proteccion de la rama "main" que es la rama principal o master, asi lo entiendo yo del repositorio donde estamos trabajando
 
-Porque es importante o recomendable proteger la rama main?, porque en un entorno laboral varias personas pueden estar trabajando con un mismo repositorio este procso forma parte de las buenas practicas de CI / CD.
+Porque es importante o recomendable proteger la rama main?, porque en un entorno laboral varias personas pueden estar trabajando con un mismo repositorio este proceso forma parte de las buenas practicas de CI / CD.
 
-Cada persona o colaborador trabaja en su propia rama, de esta forma se evitan erorres o conflictos o que alguien suba algun codigo que rompa el proyecto.
+Cada persona o colaborador trabaja en su propia rama, de esta forma se evitan erorres o conflictos o que alguien suba algun codigo que rompa el proyecto o sobreescriba la actividad de otro compañero. 
 
 Los cambios los revisa posiblemente un coordinador antes de pasarlos a la rama "main" mediante un Pull Request, el cual verificara que todo este en orden y correcto.
 
@@ -29,8 +37,22 @@ se agregaran capturas del git status
 
 agrego el archivo git-log.txt
 
-en este archivo contiene la evidencia del log de cuando se agregaron las funciones sumar y restar y entraron en conflicto al pertenecer ambas funciones al mismo archivo operations.py
+en este archivo contiene la evidencia del log de cuando se agregaron las funciones sumar y restar, las cuales entraron en conflicto al pertenecer ambas funciones al mismo archivo operations.py
+
+Que fue lo que ocurrio, se hicieron 2 ramas, una de suma y otra para la funcion de resta, cuando ambos colaboradores terminaron hicieron un pull request de sus trabajos a la rama main.
+El coordinador por llamarlo de alguna forma hace merge aceptando sin problemas los cambios realizados en la rama suma, cuando va a hacer merge con el pull request de la rama resta entra en conflicto, ya que al ser el mismo archivo (operations.py) tienen contenido diferente o una parte del contenido es diferente.
+
+En este caso se tiene que analizar y solo dejar el codigo que se quiere dejar en dicho archivo, guardar los cambios y hacer un pull resquest a la rama main y el conflicto en principio se deberia de solucionar.
 
 agrego algunas imagenes tambien
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Explicacion del funcionamiento del Workflow
+
+Un workflow en Github Actions es como una tarea automatica que ejecuta github por nosotros por medio de un archivo Yaml, en el cual le indicamos donde deberia de ejecutarse y que tiene que hacer.
+
+En este caso cuando la ejecutabamos nos pedia nuestro nombre, pero puede usarse para mucho mas funciones.
+
+En las evidencias he agregado varias capturas porque al inicio me dio problemas y tuve que buscar otro codigo para hacer funcionar el workflow, el cual al final logre ejecutar sin problemas.
+
